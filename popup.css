@@ -1,0 +1,62 @@
+body {
+  width: 300px;
+  height: 400px;
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+  background-color: #ccc; /* Placeholder for logo */
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#change-seat-btn {
+  background-color: #4285f4;
+  color: white;
+}
+
+#settings-btn {
+  background-color: #fbbc05;
+  color: white;
+}
+
+#previous-seat-btn {
+  background-color: #34a853;
+  color: white;
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+}
+
+footer a {
+  color: #888;
+  text-decoration: none;
+}

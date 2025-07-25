@@ -1,0 +1,67 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.size-inputs, .student-inputs {
+  display: flex;
+  align-items: center;
+}
+
+input[type="number"], input[type="text"] {
+  width: 80px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.student-inputs input[type="text"] {
+  width: 120px;
+}
+
+#male-start, #male-end, #male-exclude {
+  border-color: #4285f4;
+}
+
+#female-start, #female-end, #female-exclude {
+  border-color: #fbbc05;
+}
+
+#next-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: #34a853;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 12px;
+}
+
+footer a {
+  color: #888;
+  text-decoration: none;
+}
